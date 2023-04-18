@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* per i loghi */
+.logo{
+    height: 100px;
+    fill: lightseagreen;
+}
+
+.rettangolo_bianco{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.lista_nav{
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li{
+    margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+/* foto a schermo */
+.hero{
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero h1, #ciao {
+	color: white;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: center;
+}
+
+.hero h2 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* bottone nell'hero */
+.bottone{
+    height: 70px;
+    width: 130px;
+}
+
+.margin-left{
+    margin-left: 10px;
+}
+
+.bottoncino{
+    height: 50px;
+    fill: lightseagreen;
+}
+
+.accanto{
+    display: flex;
+}
+
+.centrato{
+    text-align: center;
+}
+
+.centrato_alcentro{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centrato_asinistra{
+    display: flex;
+	justify-content: left;
+	align-items: center;
+    padding-left: 5px;
+}
+
+.incolonna{
+    flex-direction: column;
+}
+
+.spaziato{
+    justify-content: space-between;
+}
+
+.tutto{
+    width: 100wh;
+}
+
+/* mi stacca al di sotto dello schermo le varie cose */
+footer ul li, footer ul svg{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* sfondo nero e testo bianco */
+.sfondo_nero{
+    background-color: black;
+    color: white;
+}
+
+.sfondo_bianco{
+    background-color: white;
+    color: black;
+}
+
+.arrotondante{
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* bordo rosso */
+.rosso{
+    border: 4px solid red;
+}
+
+/* bordo verde */
+.verde{
+    border: 4px solid green;
+}
+
+/* bordo blu */
+.blu{
+    border: 4px solid blue;
+}
+
+body{
+    overflow-x: hidden;
+}
