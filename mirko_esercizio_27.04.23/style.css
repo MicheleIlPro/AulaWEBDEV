@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header */
+#navigazione{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul li {
+    height: 5vh;
+    width: 15vw;
+    background-color: #FF6000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: #FFE6C7;
+}
+
+
+
+/* hero */
+section {
+    height: 50vh;
+    width: 100vw;
+    background-color: #454545;
+    color: white;
+}
+
+.box {
+    width: 50%;
+    height: 55%;
+    margin: auto;
+    background-color: #FF6000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 30px;
+    margin-top: 0;
+    color: #FFA559;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #FFE6C7;
+}
+
+/* per eventuali controlli */
+.blu{
+    border: 5px solid blue;
+}
+
+.rosso{
+    border: 5px solid red;
+}
+
+/* Generic */
+.spaziato{
+    justify-content: space-between;
+}
+
+.accanto{
+    display: flex;
+}
+
+.centrato{
+    
+    text-align: center;
+}
+
+.centrato_alcentro{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* animazioni */
+/* trovato su internet ed adattato al codice */
+.animazione-testo {
+    animation: cambiaColore 1s ease-in-out; /* animazione che dura 1 secondo */
+}
+
+@keyframes cambiaColore {
+    0% {
+        color: black; /* il colore di partenza */
+    }
+    50% {
+        color: red; /* il colore casuale generato dalla funzione */
+    }
+    100% {
+        color: black; /* il colore di ritorno */
+    }
+}
+
